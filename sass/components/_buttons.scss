@@ -1,0 +1,13 @@
+/* style button */
+ button{
+    padding: 12px 25px 12px 25px;
+    background-color: $Illustration_Secondary;
+    color: $Elements_Background;
+    border: solid 2px #fff;
+    border-radius: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    &:hover{
+        background-color: $Illustration_SecondaryHover;
+        color: $Elements_Background;
+    }
+ }

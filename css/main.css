@@ -1,0 +1,362 @@
+/* https://www.happyhues.co/palettes */
+/* style footer */
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 0 !important;
+  background-color: #181818;
+  color: #fffffe;
+  width: 100%;
+  height: 2rem;
+}
+
+#progress {
+  background-color: #181818;
+}
+
+#section {
+  background-color: #181818;
+  width: 100vw;
+  z-index: -1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#section .stepper {
+  padding: 1rem;
+  width: 50%;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: #fffffe;
+}
+
+.progress-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+}
+.progress-list #info {
+  position: relative;
+}
+.progress-list #info::after {
+  content: "";
+  background-color: rgb(4, 92, 11);
+  position: absolute;
+  width: 12rem !important;
+  left: 6rem;
+  top: 2.3rem;
+  padding: 4px;
+}
+.progress-list #info-2 {
+  position: relative;
+}
+.progress-list #info-2::after {
+  content: "";
+  background-color: rgb(4, 92, 11);
+  position: absolute;
+  width: 13rem !important;
+  left: 6.6rem;
+  top: 2.3rem;
+  padding: 4px;
+}
+.progress-list .progress-item {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.progress-list .progress-item .progress-count {
+  padding: 0.1rem;
+  background-color: #682eae;
+  border-radius: 40%;
+  z-index: 2;
+}
+
+#timeSecond {
+  color: white;
+  font-size: xx-large;
+  position: relative;
+  left: 2rem;
+  top: 1rem;
+}
+
+/* style button */
+button {
+  padding: 12px 25px 12px 25px;
+  background-color: #682eae;
+  color: #fffffe;
+  border: solid 2px #fff;
+  border-radius: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover {
+  background-color: #240648;
+  color: #fffffe;
+}
+
+/* design shapedivide for first page */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f2eef5;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#start {
+  padding: 5px 8px 5px 8px;
+  background-color: #682eae;
+  color: #fffffe;
+  font-size: medium;
+  font-size: 20px;
+  border: solid 2px #fff;
+  border-radius: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#start:hover {
+  background-color: #240648;
+  color: #fffffe;
+}
+
+.custom-shape-divider-top-1671462278 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1671462278 svg {
+  position: relative;
+  display: block;
+  width: calc(159% + 1.3px);
+  height: 500px;
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1671462278 .shape-fill {
+  fill: #181818;
+  z-index: -1;
+}
+
+.logo {
+  position: absolute;
+  top: -2rem;
+  left: 12rem;
+  z-index: 100;
+}
+.logo img {
+  width: 20rem;
+}
+
+.letsstart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+  position: relative;
+  top: -7rem;
+  font-size: 40px;
+}
+
+.subscribe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.subscribe img {
+  position: relative;
+  top: -20rem;
+  left: 5rem;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation: 4s linear 0s infinite alternate example;
+          animation: 4s linear 0s infinite alternate example;
+}
+
+.info {
+  color: #fff;
+}
+
+#card {
+  width: 100%;
+  position: relative;
+  top: 10%;
+}
+#card .card {
+  border: solid 2px white;
+  border-radius: 10px;
+}
+#card .card .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  width: 100%;
+  height: 6rem;
+  font-size: 2rem;
+  border-bottom: solid 1px white;
+}
+#card .card .head-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 6rem;
+  font-size: 2rem;
+  border-bottom: solid 1px white;
+}
+#card .card #cardQst {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  font-size: 2rem;
+  border-bottom: solid 1px white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 5px 5px 0;
+}
+#card .card #cardQst .btn {
+  color: aqua;
+  padding: 3rem;
+  width: 20%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 12rem !important;
+}
+#card .card .body-card {
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  font-size: 2rem;
+  border-bottom: solid 1px white;
+  padding: 1rem;
+}
+#card .card .footer-card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@-webkit-keyframes example {
+  from {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+  }
+  to {
+    -webkit-transform: translateX(-8vw);
+            transform: translateX(-8vw);
+    /* unset properties i.e. 'filter' will revert to default values */
+  }
+}
+
+@keyframes example {
+  from {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+  }
+  to {
+    -webkit-transform: translateX(-8vw);
+            transform: translateX(-8vw);
+    /* unset properties i.e. 'filter' will revert to default values */
+  }
+}

@@ -1,0 +1,81 @@
+// Progress 
+#progress{
+    background-color:$Elements_Headline ;
+}
+
+@mixin centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section{
+    background-color: $Elements_Headline;
+    width: 100vw;
+    z-index: -1;
+    box-sizing: border-box;
+    @include centering;
+    .stepper{
+        padding: 1rem;
+        width: 50%;
+        margin-top: 2rem;
+        border-radius: 10px;
+        background-color:  $Elements_Background;
+    }
+}
+.progress-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    #info{
+        position: relative;
+    }
+    #info::after{
+        content: '';
+        background-color: rgb(4, 92, 11);
+        position: absolute;
+        width: 12rem  !important;
+        left: 6rem;
+        top: 2.3rem;
+        padding: 4px;
+    }
+    #info-2{
+        position: relative;
+    }
+    #info-2::after{
+        content: '';
+        background-color: rgb(4, 92, 11);
+        position: absolute;
+        width: 13rem  !important;
+        left: 6.6rem;
+        top: 2.3rem;
+        padding: 4px;
+    }
+
+   
+    .progress-item{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .progress-count{
+            padding: .1rem;
+            background-color: $Illustration_Secondary;
+            border-radius:40% ;
+            z-index: 2;
+        }
+    
+    }
+   
+}
+
+#timeSecond{
+    color: white;
+    font-size: xx-large;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+}

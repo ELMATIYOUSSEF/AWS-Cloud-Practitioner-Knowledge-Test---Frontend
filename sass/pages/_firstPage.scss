@@ -1,0 +1,158 @@
+/* design shapedivide for first page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:$Illustration_Main;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#start{
+    padding: 5px 8px 5px 8px;
+    background-color: $Illustration_Secondary;
+    color: $Elements_Background;
+    font-size: medium;
+    font-size: 20px;
+    border: solid 2px #fff;
+    border-radius: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    &:hover{
+        background-color: $Illustration_SecondaryHover;
+        color: $Elements_Background;
+    }
+}
+.custom-shape-divider-top-1671462278 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1671462278 svg {
+    position: relative;
+    display: block;
+    width: calc(159% + 1.3px);
+    height: 500px;
+    z-index: -1;
+}
+
+.custom-shape-divider-top-1671462278 .shape-fill {
+    fill: $Elements_Headline;
+    z-index: -1;
+}
+.logo{
+    position: absolute;
+    top:-2rem;
+    left: 12rem;
+    z-index: 100;
+    img{
+        width: 20rem;
+    }
+}
+.letsstart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    position: relative;
+    top: -7rem;
+    font: {
+        size: 40px;
+    }
+}
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img{
+        position: relative;
+        top: -20rem;
+        left: 5rem;
+        animation-name: example;
+        animation-duration: 4s;
+        animation: 4s linear 0s infinite alternate example ;
+    }
+}
+@mixin body-card{
+           text-align: center;
+            color: #fff;
+            width: 100%;
+            font-size: 2rem;
+            border-bottom: solid 1px white;
+}
+.info{
+    color: #fff;
+}
+#card{
+    width: 100%;
+    position: relative;
+    top: 10%;
+    .card{
+        border: solid 2px white;
+        border-radius: 10px;
+        .head{
+            @include centering;
+            color: #fff;
+            width: 100%;
+            height: 6rem;
+            font-size: 2rem;
+            border-bottom: solid 1px white;
+        }
+        .head-card{
+            @include centering;
+            width: 100%;
+            height: 6rem;
+            font-size: 2rem;
+            border-bottom: solid 1px white;
+        }
+        #cardQst{
+            @include body-card();
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                margin: 0px 5px 5px 0;
+            .btn{
+                color: aqua;
+                padding: 3rem;
+                width: 20%;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                height: 12rem !important;
+            }
+        }
+        .body-card{
+            @include body-card();
+            padding: 1rem;          
+        }
+        .footer-card{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            padding: 1rem;
+            justify-content: space-between;
+        }
+    }
+}
+
+@keyframes example {
+
+    from {
+        // transform: rotateX(0deg);
+        transform: translateX(-0vw);
+      }
+      to {
+        // transform: rotateX(20deg);
+        transform: translateX(-8vw);
+        /* unset properties i.e. 'filter' will revert to default values */
+      }
+
+}
