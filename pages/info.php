@@ -17,16 +17,17 @@
                 <p class="">1-you will have <span>15 seconds </span>foreach question</p>
                 <p class="">2-You can't selectany option once time goes off .</p>
                 <p class="">3-you can't exit from the Quiz while you're playing</p>
-                <p class="">1-you will get points</p>
+                <p class="">4-you will get points</p>
             </div>
             <div class="head-card" style="display:none">
                 <h4 class="info"></h4>
+                <div class="time_Pogres" id="time_Pogress"></div>
             </div>
             <div class="body-card-Qst" id="cardQst" style="display:none">
-                <button class="infoA btn"></button>
-                <button class="infoB btn"></button>
-                <button class="infoC btn"></button>
-                <button class="infoD btn"></button>
+                <label class="infoA labelBtn" for="A"></label><input type="checkbox" class="infoQ" id="A" hidden>
+                <label class="infoB labelBtn" for="B"> </label><input type="checkbox" class="infoQ"id="B" hidden>
+                <label class="infoC labelBtn" for="C"> </label><input type="checkbox" class="infoQ"id="C" hidden>
+                <label class="infoD labelBtn" for="D"> </label><input type="checkbox" class="infoQ"id="D" hidden>
             </div>
             <div class="footer-card">
                 <button class="exit"> Exit</button>
